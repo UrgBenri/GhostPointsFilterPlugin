@@ -48,7 +48,7 @@ public:
     QString pluginAuthorName() const {return "Mehrez Kristou";}
     QString pluginAuthorContact() const {return "mehrez@kristou.com";}
     int pluginLoadOrder() const {return 2;}
-    bool pluginIsExperimental() const { return true; }
+    bool pluginIsExperimental() const { return false; }
 
     QString pluginLicense() const { return "GPL"; }
     QString pluginLicenseDescription() const { return "GPL"; }

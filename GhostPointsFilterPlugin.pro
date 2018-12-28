@@ -1,7 +1,7 @@
 TEMPLATE    = lib
 CONFIG      += plugin
-#DESTDIR     = $$PWD/../bin/plugins
-DESTDIR     = $$PWD/../bin/UrgBenriPlus.app/PlugIns
+DESTDIR     = $$PWD/../bin/plugins
+#DESTDIR     = $$PWD/../bin/UrgBenriPlus.app/PlugIns
 CONFIG      += c++11
 TARGET      = GhostPointsFilterPlugin
 
