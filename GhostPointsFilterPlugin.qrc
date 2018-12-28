@@ -1,8 +1,5 @@
 <RCC>
     <qresource prefix="/GhostPointsFilterPlugin">
         <file alias="tabIcon">img/ghost.png</file>
-        <file alias="plugin.en">i18n/plugin_en.qm</file>
-        <file alias="plugin.fr">i18n/plugin_fr.qm</file>
-        <file alias="plugin.ja">i18n/plugin_ja.qm</file>
     </qresource>
 </RCC>
