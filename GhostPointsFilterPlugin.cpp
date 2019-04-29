@@ -127,7 +127,6 @@ bool GhostPointsFilterPlugin::isLine(const QVector<QVector<long> > &ranges, int 
         if(diff > maxDiff) maxDiff = diff;
 
         if(diffSign != positive || diff < ui->continuity->value()){
-            maxDiff -= diff;
             int groupSize = i - start;
             if(groupSize > 3){
                 end = i;
